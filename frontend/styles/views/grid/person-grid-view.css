@@ -1,0 +1,3 @@
+:host(.person-grid) [part~="header-cell"] {
+    background: lightcoral;
+}
