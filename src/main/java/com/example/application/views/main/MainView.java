@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import com.example.application.views.ExampleView;
 import com.example.application.views.grid.GridView;
+import com.example.application.views.responsive.ResponsiveView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentUtil;
 import com.vaadin.flow.component.applayout.AppLayout;
@@ -92,6 +93,7 @@ public class MainView extends AppLayout {
             createTab("Hello World", HelloWorldView.class),
             createTab("Person Grid", GridView.class),
             createTab("Example", ExampleView.class),
+            createTab("Responsive", ResponsiveView.class),
             createTab("About", AboutView.class)
         };
     }
